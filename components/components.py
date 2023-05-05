@@ -14,9 +14,9 @@ class WebElement:
     def find_element(self):
         return self.driver.find_element(By.CSS_SELECTOR, self.locator)
 
-    def exist:
+    def exist(self):
         try:
-            self.icfind_element()
+            self.find_element()
         except NoSuchElementException:
             return False
         return True
