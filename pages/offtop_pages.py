@@ -14,6 +14,7 @@ class Offtoppages(BasePage):
         self.btn_shop = WebElement(driver, '#shopping_cart_container > a')
         self.btn_1_item_remove = WebElement(driver, '#remove-sauce-labs-backpack')
         self.btn_2_item_remove = WebElement(driver, '#remove-sauce-labs-bike-light')
-
+        self.card_1_item = WebElement(driver, "#item_4_title_link > div")
+        self.card_2_item = WebElement(driver, "#item_0_title_link > div")
     def get_text(self):
         str(self.find_element().text)
