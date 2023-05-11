@@ -7,3 +7,7 @@ class Accordion(BasePage):
 
         self.text_content = WebElement(driver, "#section1Content > p")
         self.headding = WebElement(driver, '##section1Heading')
+
+        self.section2_p_1 = WebElement(driver, '#section2Content > p:nth-child(1)')
+        self.section2_p_2 = WebElement(driver, '#section2Content > p:nth-child(2)')
+        self.section3_p = WebElement(driver, '#section3Content > p')

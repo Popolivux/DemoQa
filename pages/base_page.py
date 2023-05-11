@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 import time
 
 class BasePage:
-    def __init__(self, driver,base_url):
+    def __init__(self, driver, base_url):
         self.driver = driver
         self.base_url = base_url
 
