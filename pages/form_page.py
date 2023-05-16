@@ -16,3 +16,7 @@ class FormPages(BasePage):
         self.btn_submit = WebElement(driver, "#submit")
         self.modal_dialog = WebElement(driver, 'body > div.fade.modal.show > div')
         self.btn_close_modal = WebElement(driver, "#closeLargeModal")
+        self.btn_hobbies = WebElement(driver, '#hobbies-checkbox-2')
+        self.curent_adress = WebElement(driver, '#currentAddress')
+        self.btn_state = WebElement(driver, "#state > div > div.css-1hwfws3 > div.css-1wa3eu0-placeholder")
+        self.btn_NCR = WebElement(driver, "#state > div > div.css-1hwfws3 > div.css-1uccc91-singleValue")

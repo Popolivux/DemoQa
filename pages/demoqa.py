@@ -1,4 +1,4 @@
-from selenium.common.exceptions import NoSuchElementException
+# from selenium.common.exceptions import NoSuchElementException
 from components.components import WebElement
 from pages.base_page import BasePage
 
